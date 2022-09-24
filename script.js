@@ -6,7 +6,6 @@ var question = document.querySelector("#question");
 var assessQuestions = document.querySelector("#assess-questions");
 var multipleChoice = document.querySelector("#multiple-choice");
 var answer = document.querySelector("#answer");
-var multipleChoice = document.querySelector("#multiple-choice");
 var choiceA = document.querySelector("#multiple-choice-A");
 var choiceB = document.querySelector("#multiple-choice-B");
 var choiceC = document.querySelector("#multiple-choice-C");
