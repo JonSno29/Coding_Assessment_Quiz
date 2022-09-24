@@ -21,3 +21,13 @@ var submitBtn = document.querySelector("#submit-button");
 var clearBtn = document.querySelector("#clear-button");
 var start = document.querySelector(".start");
 /* Fin Variables*/
+/* Number Variables */
+var timeLeft = 61;
+var i = 0;
+var s = 0;
+var selection = 0;
+var score = 0;
+var scoreList = [];
+var setTimeInterval;
+loadScore();
+
