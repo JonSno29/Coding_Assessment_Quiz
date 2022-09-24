@@ -59,3 +59,67 @@ body {
 }
 /* Fin Button Styling */
 
+/* Assessment Styling */
+#question {
+  color: #4C1A1B;
+  font-size: 3rem;
+  text-shadow: 0.25px 0.25px rgb(227, 129, 129);
+}
+
+#multiple-choice {
+  margin: 50px 50px;
+}
+
+.answer {
+  font-weight: bold;
+  background: rgba(67, 15, 6, 0.4);
+  margin: 10px 350px;
+  padding: 25px 15px;
+  border-radius: 15px;
+}
+
+.answer:hover {
+  background: #600808;
+  color: rgb(179, 166, 23);
+}
+
+#check-answer-correct {
+  color: #390404;
+  font-size: 2.65rem;
+  text-shadow: 0.75px 0.75px rgb(177, 94, 94);
+  font-weight: bolder;
+}
+
+.timer {
+  color: #a38e28;
+  font-size: 2.5rem;
+  text-shadow: 0.75px 0.75px #000;
+  text-align: right;
+  margin-right: 25px;
+}
+#input-score h1 {
+  color: #540d0d;
+  font-size: 3.5rem;
+  text-shadow: 0.75px 0.75px rgb(176, 94, 94);
+}
+
+#score-button {
+  font-size: larger;
+  color: #958630;
+  text-shadow: 0.75px 0.75px rgb(145, 62, 62);
+}
+
+form {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+input {
+  outline: none;
+  margin-top: 1.25vh;
+  padding: 5px 25px;
+  text-align: center;
+}
+/* Fin Assessment Styling */
+
+
