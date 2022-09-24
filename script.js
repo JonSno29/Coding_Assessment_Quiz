@@ -117,5 +117,21 @@ function displayAssessment() {
   }
 }
 
+/* Start Assessment Timer */
+function startTimer() {
+  setTimeInterval = setInterval(function () {
+    timeLeft--;
+    timer.textContent = "Timer: " + timeLeft;
+
+    if (timeLeft < 0 || i >= questionArray) {
+      clearInterval(setTimeInterval);
+      endQuiz();
+    }
+  }, 1000);
+}
+
+
+
+
 
 
