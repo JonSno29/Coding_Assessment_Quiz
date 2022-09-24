@@ -1,5 +1,5 @@
 /* Variables */
-var startQuizBtn = document.querySelector("#start-button");
+var startBtn = document.querySelector("#start-button");
 var timer = document.querySelector(".timer");
 var highScoreBtn = document.querySelector("#highscore-button");
 var question = document.querySelector("#question");
@@ -103,4 +103,19 @@ var questionArray = [
     answer: "?:",
   },
 ];
+/* Fin Qand A */
+/* display question and answer function */
+function displayAssessment() {
+  if (i < questionArray.length) {
+    question.textContent = questionArray[i].question;
+    choiceA.textContent = questionArray[i].selection[0];
+    choiceB.textContent = questionArray[i].selection[1];
+    choiceC.textContent = questionArray[i].selection[2];
+    choiceD.textContent = questionArray[i].selection[3];
+  } else {
+    endAssessment();
+  }
+}
+
+
 
