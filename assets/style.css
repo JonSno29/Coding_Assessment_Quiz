@@ -39,3 +39,23 @@ body {
   line-height: 1.5;
 }
 /* Fin Page Styling */
+
+/* Button Styling */
+.btn {
+  padding: 1.25vh 2.25vw;
+  background-color: #501307;
+  color: rgb(188, 162, 35);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 4.5px;
+}
+
+.btn:hover {
+  background: #4f1105;
+}
+
+#highscore-button {
+  margin-top: 5vw;
+}
+/* Fin Button Styling */
+
