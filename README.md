@@ -1,6 +1,8 @@
 # OVERVIEW
 
-To, Prepare me for my journey after I finish Coding Bootcamp. Hiring companies will use these Coding Assessments, to make sure you are prepared, before you are hired.
+To, Prepare me for my journey after I finish Coding Bootcamp. Hiring companies will use these Coding Assessments, to make sure you are prepared, before 
+
+you are hired.
 
 ## User Story
 
@@ -62,7 +64,7 @@ WebPage: https://jonsno29.github.io/Coding_Assessment_Quiz/
 
 🎗 Screencastify for mock-up GIF
 
-/Users/jonsnover/Desktop/Coding_Assessment_Quiz/assets/AssessmentMU.gif
+![AssessmentMU](https://user-images.githubusercontent.com/109987633/192394535-6b9e75c7-343e-4698-b8af-6b2483960a45.gif)
 
 ## CREDITS:
 
