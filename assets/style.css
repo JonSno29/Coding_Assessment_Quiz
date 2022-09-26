@@ -9,13 +9,27 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 175px;
+  margin: auto;
+  position: fixed;
+  z-index: 999;
+}
+
 .hide {
   display: none;
 }
 
 /* Begin Page Styling */
 .start {
-  background: rgba(157, 141, 4, 0.4);
+  background: rgba(243, 207, 6, 0.4);
   margin-top: 33vh;
   margin-left: 25vw;
   margin-right: 25vw;
@@ -28,15 +42,16 @@ body {
 }
 
 .start h1 {
-  color: #380404;
+  color: #481103;
   font-size: 2.5rem;
-  text-shadow: 0.75px 0.75px #000;
+  text-shadow: 0.75px 0.75px rgb(246, 244, 244);
 }
 
 .start p {
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: #481103 ; 
 }
 /* Fin Page Styling */
 
@@ -51,40 +66,42 @@ body {
 }
 
 .btn:hover {
-  background: #4f1105;
+  background: #d8c21a;
 }
 
 #highscore-button {
   margin-top: 5vw;
+  color:rgba(243, 207, 6, 0.4)
+  
 }
 /* Fin Button Styling */
 
 /* Assessment Styling */
 #question {
-  color: #4C1A1B;
+  color: #b69513;
   font-size: 3rem;
-  text-shadow: 0.25px 0.25px rgb(227, 129, 129);
+  text-shadow: 0.25px 0.25px rgb(250, 248, 248);
 }
 
 #multiple-choice {
-  margin: 50px 50px;
+  margin: 50px 155px;
 }
 
 .answer {
   font-weight: bold;
-  background: rgba(67, 15, 6, 0.4);
+  background: rgba(246, 229, 38, 0.4);
   margin: 10px 350px;
   padding: 25px 15px;
-  border-radius: 15px;
+  border-radius: 9px;
 }
 
 .answer:hover {
-  background: #600808;
+  background: #f5f3f3;
   color: rgb(179, 166, 23);
 }
 
 #check-answer-correct {
-  color: #390404;
+  color: #d9a808;
   font-size: 2.65rem;
   text-shadow: 0.75px 0.75px rgb(177, 94, 94);
   font-weight: bolder;
@@ -93,25 +110,38 @@ body {
 .timer {
   color: #a38e28;
   font-size: 2.5rem;
-  text-shadow: 0.75px 0.75px #000;
+  text-shadow: 0.75px 0.75px rgb(245, 243, 243);
   text-align: right;
   margin-right: 25px;
 }
 #input-score h1 {
-  color: #540d0d;
+  color: #e9d32a;
   font-size: 3.5rem;
   text-shadow: 0.75px 0.75px rgb(176, 94, 94);
 }
+#input-score h2 {
+  color: #d9a808;
+}
 
-#score-button {
+#highscore-button {
   font-size: larger;
   color: #958630;
   text-shadow: 0.75px 0.75px rgb(145, 62, 62);
 }
 
+#high-score h1 {
+  color: #d9a808;
+}
+
+#scoreBoard {
+  color: #958630;
+  font-size: large;
+}
+
 form {
   font-weight: bold;
   font-size: 1.25rem;
+  color:rgba(243, 207, 6, 0.4)
 }
 
 input {
@@ -119,7 +149,9 @@ input {
   margin-top: 1.25vh;
   padding: 5px 25px;
   text-align: center;
+  color: #5c2009;
 }
+
 /* Fin Assessment Styling */
 
 
