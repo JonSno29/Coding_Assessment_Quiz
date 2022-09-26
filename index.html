@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <!-- Style of CSS -->
   <link rel="stylesheet" href="/assets/style.css">
   <title>CODING ASSESSMENT</title>
@@ -13,25 +14,20 @@
   <script src="https://commons.wikimedia.org/wiki/File:University_of_Minnesota_Logo.svg"></script>
 </head>
 <body>
-  <header id="banner">
-    <!-- Top, where navigation "bar" section would be -->
-    <nav>
-      <a href="#" class="jon-logo"><img src="JTS.png" alt="A see through image of a computer, with Jon Thomas Snover below image in the upper lefthand corner of webpage"
-   class="logo"></a>
-      </nav>
-  </header>
   <!-- Start Assessment Section -->
-    <div class="start">
-  <h1>CODING ASSESSMENT</h1>
-  <p class="start-page">
+  
+  <div class="start">
+    <h1>CODING ASSESSMENT</h1>
+    <p class="start-page">
     *Let's see if you're smart AND fast!*
     <br>
     Every incorrect answer = -10 sec.
     <br>
     BEST OF LUCK!
-  </p>
+    </p>
+      
   <button id="start-button" class="btn">START</button>
-    </div>
+  </div>
 
     <!-- Assessment Questions Section -->
     <main class="main">
@@ -41,7 +37,7 @@
       <div id="question-card" class="card">
 
         <header class="container">
-          <h2 id="question"></h2>
+          <h3 id="question"></h3>
         </header>
 
         <!-- Multiple Choice Answer Section -->
@@ -67,18 +63,20 @@
     </div>
 
     <!-- Highscore Button -->
-    <button id="highscore-button" class="btn">HIGH SCORES</button>
+    <button id="highscore-button" class="btn">SCORES</button>
+    
 
     <!-- End Of Assessment, Enter Highscore -->
     <section id="input-score" class="container hide">
       <h1>ASSESSMENT COMPLETED</h1>
 
-      <h2>YOU SCORED... <span id="score-button" class="user-score">Score</span> POINTS!</h2>
+      <h2>YOU SCORED <span id="score-button" class="user-score">Score</span> POINTS!</h2>
+      
       <form>
         <label for="initials-box">INITIAL HERE:</label>
         <br>
         <input id="initials-box" type="text">
-      <br>
+        <br>
         <input id="submit-button" type="submit" class="btn">
       </form>
     </section>
@@ -87,15 +85,18 @@
       <div id="score-card" class="card">
         <header class="container">
           <h1>HIGH SCORES:</h1>
+          
           <hr style="margin-top:0; border-color:transparent;">
           <div id="scoreBoard" style="min-height: 275px"></div>
         </header>
       </div>
+      
       <button id="back-button" class="btn">GO HOME</button>
       <button id="clear-button" class="btn">CLEAR HIGH SCORES</button>
     </section>
-</main>
+  
+  </main>
   <!-- JavaScript -->
-  <script src="script.js"></script>
+  <script src="/assets/script.js"></script>
 </body>
-</html>
+</html> 
