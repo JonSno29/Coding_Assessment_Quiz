@@ -1,8 +1,8 @@
 # OVERVIEW
 
-To, Prepare me for my journey after I finish Coding Bootcamp. Hiring companies will use these Coding Assessments, 
+To, Prepare me for my journey after I finish Coding Bootcamp. Hiring companies will 
 
-to make sure you are prepared, before you are hired.
+use these Coding Assessments, to make sure you are prepared, before you are hired.
 
 ## User Story
 
