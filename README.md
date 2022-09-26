@@ -1,7 +1,9 @@
-OVERVIEW:
+# OVERVIEW
+
 To, modify a Starter Code which will generate random passwords based pn the code used. This web application will run on HTML, CSS and will be powered by JavaScript. The web application will also be adaptable to multiple screen sizes.
 
 User Story
+
 AS AN employee with access to sensitive data
 
 I WANT to randomly generate a password that meets certain criteria
@@ -42,11 +44,7 @@ THEN the password is either displayed in an alert or written to the page
 LIVE LINK:
 Repository:
 
-https://github.com/JonSno29/-Generate-Password-.git
-
 WebPage:
-
-https://jonsno29.github.io/-Generate-Password-/
 
 INSTALLATION, USAGE & MOCK-UP:
 🎗 JavaScript
@@ -73,10 +71,8 @@ PassMU
 
 CREDITS:
 My fellow bootcamp study group at the U Of M, it's always fun collaborating with eachother.
-
-MDN DOCUMENTS: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-
-Thank You for the Starter Code: (https://github.com/Xandromus)
+MDN DOCUMENTS:
+Thank You for the Starter Code
 
 LICENSE:
 MIT LICENSE
@@ -94,8 +90,6 @@ FEATURES:
 
 HOW TO CONTRIBUTE:
 Fork my repositories so I can fork yours:
-
-https://github.com/JonSno29/JonSno29.git
 
 Use the "scout rule" to help others.
 
