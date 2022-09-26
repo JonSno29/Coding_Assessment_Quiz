@@ -38,7 +38,7 @@ THEN I can save my initials and my score
 
 Repository: https://github.com/JonSno29/Coding_Assessment_Quiz.git
 
-WebPage:
+WebPage: https://jonsno29.github.io/Coding_Assessment_Quiz/
 
 ## INSTALLATION, USAGE & MOCK-UP:
 
@@ -62,7 +62,7 @@ WebPage:
 
 🎗 Screencastify for mock-up GIF
 
-AssessmentMU.gif
+/Users/jonsnover/Desktop/Coding_Assessment_Quiz/assets/AssessmentMU.gif
 
 ## CREDITS:
 
