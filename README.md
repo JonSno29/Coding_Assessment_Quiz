@@ -1,52 +1,47 @@
 # OVERVIEW
 
-To, modify a Starter Code which will generate random passwords based pn the code used. This web application will run on HTML, CSS and will be powered by JavaScript. The web application will also be adaptable to multiple screen sizes.
+To, Prepare me for my journey after I finish Coding Bootcamp. Hiring companies will use these Coding Assessments, to make sure you are prepared, before you are hired.
 
-User Story
+## User Story
 
-AS AN employee with access to sensitive data
+AS A coding boot camp student
 
-I WANT to randomly generate a password that meets certain criteria
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 
-SO THAT I can create a strong password that provides greater security
+SO THAT I can gauge my progress compared to my peers
 
-Acceptance Criteria
-GIVEN I need a new, secure password
+## Acceptance Criteria
 
-WHEN I click the button to generate a password
+GIVEN I am taking a code quiz
 
-THEN I am presented with a series of prompts for password criteria
+WHEN I click the start button
 
-WHEN prompted for password criteria
+THEN a timer starts and I am presented with a question
 
-THEN I select which criteria to include in the password
+WHEN I answer a question
 
-WHEN prompted for the length of the password
+THEN I am presented with another question
 
-THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN I answer a question incorrectly
 
-WHEN asked for character types to include in the password
+THEN time is subtracted from the clock
 
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN all questions are answered or the timer reaches 0
 
-WHEN I answer each prompt
+THEN the game is over
 
-THEN my input should be validated and at least one character type should be selected
+WHEN the game is over
 
-WHEN all prompts are answered
+THEN I can save my initials and my score
 
-THEN a password is generated that matches the selected criteria
+## LIVE LINK:
 
-WHEN the password is generated
-
-THEN the password is either displayed in an alert or written to the page
-
-LIVE LINK:
-Repository:
+Repository: https://github.com/JonSno29/Coding_Assessment_Quiz.git
 
 WebPage:
 
-INSTALLATION, USAGE & MOCK-UP:
+## INSTALLATION, USAGE & MOCK-UP:
+
 🎗 JavaScript
 
 🎗 Media Queries
@@ -67,36 +62,44 @@ INSTALLATION, USAGE & MOCK-UP:
 
 🎗 Screencastify for mock-up GIF
 
-PassMU
+AssessmentMU.gif
 
-CREDITS:
+## CREDITS:
+
+My tutor also helped me display a custom logo.
+
 My fellow bootcamp study group at the U Of M, it's always fun collaborating with eachother.
-MDN DOCUMENTS:
-Thank You for the Starter Code
 
-LICENSE:
+MDN DOCUMENTS: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+## LICENSE:
+
 MIT LICENSE
 
-FEATURES:
+## FEATURES:
+
 🎗 Uses a GIF to show features.
 
-🎗 Automatically Generates Passwords.
+🎗 Powered by JavaScript.
 
 🎗 Visually appealing.
 
-🎗 Customizable per user.
+🎗 Includes a Timer.
 
 🎗 These features enhance user experience.
 
-HOW TO CONTRIBUTE:
+## HOW TO CONTRIBUTE:
+
 Fork my repositories so I can fork yours:
 
 Use the "scout rule" to help others.
 
-TESTS:
+## TESTS:
+
 🎗 Trial and error
 
 🎗 Research
 
-CONTACT:
+## CONTACT:
+
 Snoverjon@gmail.com
