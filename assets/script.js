@@ -139,10 +139,10 @@ function answerSelection(event) {
     clearInterval(setTimeInterval);
   } else {
     if (event === questionArray[i].answer) {
-      checkAnswerCorrect.textContent = "Correct";
+      checkAnswerCorrect.textContent = "CORRECT!";
     } else {
       timeLeft -= 10;
-      checkAnswerIncorrect.textContent = "Incorrect";
+      checkAnswerIncorrect.textContent = "Incorrect :(";
     }
     score = timeLeft;
     i++;
