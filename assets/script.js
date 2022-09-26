@@ -20,6 +20,8 @@ var backBtn = document.querySelector("#back-button");
 var submitBtn = document.querySelector("#submit-button");
 var clearBtn = document.querySelector("#clear-button");
 var start = document.querySelector(".start");
+var questionContainer = document.querySelector(".main")
+questionContainer.style.display = "none"
 /* Fin Variables*/
 /* Number Variables */
 var timeLeft = 60;
@@ -216,6 +218,7 @@ startBtn.addEventListener("click", function (event) {
   assessQuestions.classList.remove("hide");
   highScoreBtn.style.display = "none";
   highScore.classList.add("hide");
+  questionContainer.style.display = "block"
 });
 
 multipleChoice.addEventListener("click", function (event) {
