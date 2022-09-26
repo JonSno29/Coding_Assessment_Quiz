@@ -43,27 +43,21 @@ var questionArray = [
   {
     question:"Commonly used data types DO NOT include:",
     selection:["strings", "booleans", "alerts", "numbers"], 
-    answer: "Alerts",
+    answer: "alerts",
   },
   {
-    question: "Which built-in method sorts the elements of an array?",
-    selection: ["order()", "changeOrder(order)", "sort()", "None of the Above"],
-    answer: "sort()",
+    question: "The condition in an if / else statement is enclosed within ____.",
+    selection: ["quotes", "curly brackets", "parentheses", "square brackets"],
+    answer: "parentheses"
   },
   {
-    question:
-      "Which of the following keywords is used to define a variable in JavaScript?",
-    selection: ["var", "let", "Both of the Above", "None of the Above"],
-    answer: "Both of the Above",
+    question: "Arrays in Javascript can be used to store ____.",
+    selection: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+    answer: "all of the above"
   },
   {
     question: "Which method returns the character at the specified index?",
-    selection: [
-      "charAt()",
-      "getCharAt()",
-      "characterAt()",
-      "None of the Above",
-    ],
+    selection: ["charAt()", "getCharAt()", "characterAt()", "None of the Above"],
     answer: "charAt()",
   },
   {
@@ -73,24 +67,13 @@ var questionArray = [
   },
   {
     question: "The 'function' and 'var' are known as:",
-    selection: [
-      "Keywords",
-      "Declaration Statements",
-      "Data Types",
-      "Prototypes",
-    ],
+    selection: ["Keywords", "Declaration Statements", "Data Types", "Prototypes"],
     answer: "Declaration Statements",
   },
   {
-    question:
-      "Which of the following variables takes precedence over the others if the names are the same?",
-    selection: [
-      "The Local Element",
-      "Global Variable",
-      "Both of the Above",
-      "None of the Above",
-    ],
-    answer: "The Local Element",
+    question: "A very useful tool for used during development and debugging for printing content to the debugger is:",
+    selection: ["Javascript", "terminal / bash", "for loops", "console log"],
+    answer: "console log"
   },
   {
     question:
