@@ -138,6 +138,9 @@ body {
 
 #high-score h1 {
   color: #d9a808;
+  font-size: 3.5rem;
+  text-shadow: 0.75px 0.75px rgb(176, 94, 94);
+  
 }
 
 #scoreBoard {

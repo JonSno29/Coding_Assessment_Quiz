@@ -99,6 +99,7 @@ function displayAssessment() {
     choiceD.textContent = questionArray[i].selection[3];
   } else {
     endAssessment();
+    console.log(call.Assessment)
   }
 }
 
